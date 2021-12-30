@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="lmNTqa6d0RKmGSS54GNNrmoEK3VnKQskTlEV0rIk">
+
+    <title>Billio - Det moderna biljettsystemet</title>
+    <meta name="description" content="Vill du sälja biljetter till ditt nästa evenemang? Med Billio får du ett komplett system från försäljning till check-in. Med en kraftfull och snabb tjänst som kan hantera evenemang av alla storlekar.">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Billio - Det moderna biljettsystemet" />
+    <meta property="og:description" content="Vill du sälja biljetter till ditt nästa evenemang? Med Billio får du ett komplett system från försäljning till check-in. Med en kraftfull och snabb tjänst som kan hantera evenemang av alla storlekar." />
+    <meta property="og:image" content="https://billio.app/img/billio-share.jpg" />
+
+    <!-- Scripts -->
+    <script src="js/app.js%3Fid=925cad0fbf80ed5c2442" defer></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129583569-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-129583569-1');
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="css/app.css%3Fid=59e9d7951cdae9e363ef.css" rel="stylesheet" data-turbolinks-track="true">
+
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+</head>
+<body class="box-border">
+    
+    <header class="bg-dark-grey text-white h-20 flex align-middle px-4 lg:px-0">
+        <div class="container mx-auto flex flex-row justify-between items-center">
+            <h1>
+                <a href="index.html" class="block w-36">
+                    <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257 105"><path d="M67.486 82.4h22.336c14.61 0 20.647-7.124 20.647-16.42 0-9.78-6.762-15.093-12.436-15.455v-.604c5.312-1.449 10.021-4.95 10.021-12.919 0-9.055-6.037-16.42-18.956-16.42H67.486V82.4Zm7.486-6.64V54.267h15.213c8.09 0 13.16 5.433 13.16 11.712 0 5.433-3.743 9.78-13.523 9.78h-14.85Zm0-28.012V27.222h14.126c8.21 0 11.832 4.347 11.832 9.78 0 6.52-5.312 10.746-12.074 10.746H74.972ZM121.803 82.4h7.124V36.036h-7.124V82.4Zm3.622-54.09c2.777 0 5.071-2.174 5.071-4.83 0-2.657-2.294-4.83-5.071-4.83-2.777 0-5.071 2.173-5.071 4.83 0 2.656 2.294 4.83 5.071 4.83Zm23.673-7.728h-7.124V82.4h7.124V20.582Zm20.17 0h-7.123V82.4h7.123V20.582ZM182.316 82.4h7.123V36.036h-7.123V82.4Zm3.622-54.09c2.777 0 5.071-2.174 5.071-4.83 0-2.657-2.294-4.83-5.071-4.83-2.777 0-5.071 2.173-5.071 4.83 0 2.656 2.294 4.83 5.071 4.83Zm35.384 55.056c12.557 0 21.008-9.538 21.008-23.906 0-14.489-8.451-24.027-21.008-24.027-12.557 0-21.009 9.538-21.009 24.027 0 14.368 8.452 23.906 21.009 23.906Zm0-6.4c-9.538 0-13.885-8.21-13.885-17.506 0-9.297 4.347-17.628 13.885-17.628s13.885 8.33 13.885 17.628c0 9.297-4.347 17.507-13.885 17.507ZM55.274 20.44H45.109c-1.151 0-1.918.805-1.918 2.011 0 2.413-1.918 4.423-4.22 4.423-.959 0-1.726-.402-2.493-.804l-1.343-4.624c-.383-1.005-1.342-1.609-2.301-1.408l-9.974 2.815c-.959.402-1.534 1.408-1.342 2.413.575 2.212-.576 4.624-2.877 5.428-2.11.604-4.603-.603-5.179-3.015-.383-1.006-1.342-1.609-2.301-1.408l-9.782 3.016C.42 29.689-.155 30.694.037 31.7l15.919 55.893c.192.804.959 1.407 1.918 1.407h.575l9.782-3.016c.959-.402 1.534-1.407 1.342-2.412-.575-2.212.576-4.625 2.877-5.429 2.11-.603 4.603.603 5.179 3.016.383 1.005 1.342 1.608 2.301 1.407l3.26-1.005c0 .201.193.402.384.402.384.402.768.603 1.343.603h10.165c1.15 0 1.918-.804 1.918-2.01V22.25c0-1.005-.767-1.81-1.726-1.81ZM31.299 74.525c-3.644 1.206-5.945 4.624-5.753 8.444l-6.33 2.01L15.38 71.71l1.918-.603c.576-.2.768-.804.576-1.206-.192-.603-.767-.804-1.151-.603l-1.918.603L4.448 33.107l6.33-2.01c1.342 2.412 4.027 4.222 6.904 4.222.767 0 1.534-.201 2.302-.403 3.644-1.206 5.945-4.624 5.753-8.444l6.33-2.01 10.356 36.793c-.575.2-.767.804-.575 1.206.192.402.575.804.96.804h.19l3.837 13.27-2.493.804-3.836 1.206c-1.918-3.418-5.754-5.026-9.207-4.02Zm21.865 4.222h-2.302c.192-.402.384-1.005.192-1.608L37.821 30.694c.383 0 .767.201 1.15.201 3.644 0 6.905-2.613 7.672-6.433h6.713l-.192 54.284Z" fill="#FFF"/><path d="m24.67 66.066-3.966 1.1c-.626.184-.834.734-.626 1.1.209.367.626.734 1.044.734h.208l3.966-1.1c.626-.184.834-.734.626-1.1 0-.734-.626-.917-1.252-.734ZM30.67 64.048l-3.966 1.107c-.626.184-.834.738-.626 1.107.209.369.626.738 1.044.738h.208l3.966-1.107c.626-.184.834-.738.626-1.107-.209-.553-.835-.922-1.252-.738ZM38.863 62.066l-4.017 1.1c-.634 0-.846.55-.846 1.1.212.367.634.734 1.057.734h.212l4.017-1.1c.635-.184.846-.734.635-1.1 0-.734-.423-.917-1.058-.734Z" fill="#FFF"/></svg>
+                </a>
+            </h1>
+
+            <nav>
+                <ul>
+                    <li class="btn btn-white"><a href="help.html">Hjälp</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="bg-dark-grey text-white pt-16 pb-24 sm:pt-32 sm:pb-40">
+    <div class="container mx-auto sm:text-center px-4 lg:px-0 space-y-6 sm:w-9/12 lg:w-2/5">
+        <h1 class="text-4xl sm:text-5xl sm:leading-tight font-medium font-headline">Säg farväl till det jobbiga med att sälja biljetter</h1>
+        <p class="sm:text-xl">Vill ni sälja biljetter till ert nästa evenemang? Med Billio får ni ett komplett system från försäljning till incheckning. Med ett kraftfullt och snabbt system som kan hantera evenemang av alla dess storlekar, som dessutom är enkelt att använda.</p>
+
+        <p class="space-x-2"><a href="cdn-cgi/l/email-protection.html#781011381a111414111756190808" class="btn btn-pink">Kom igång med Billio</a> <a href="index.html#app-info" class="btn btn-orange">Läs mer</a></p>
+    </div>
+</div>
+
+<main>
+    <div class="bg-gray-100">
+        <div class="container mx-auto py-16 space-y-6 px-4 lg:px-0">
+                                                                                                                            
+                                                <div class="group bg-white rounded-md grid grid-cols-1 sm:grid-cols-8 transition duration-300 ease-in-out">
+                        <h1 class="sm:col-span-3 justify-self-start pl-4 pt-4 sm:pt-0 sm:pl-8 self-center font-headline text-3xl text-grey group-hover:text-pink"><a class="font-normal" href="event/luciafesten.html">Luciafesten 2021</a></h1>
+
+                        <div class="sm:col-span-5 p-4 sm:p-0 sm:py-6 grid grid-cols-2">
+                            <div>
+                                <h4 class="text-grey font-semibold group-hover:text-black"><svg style="margin-top: -2px;" class="inline-block h-4 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+</svg> Datum</h4>
+                                <span class="text-grey group-hover:text-black">11/12 - 2021</span>
+                            </div>
+
+                            <div>
+                                <h4 class="text-grey font-semibold group-hover:text-black"><svg style="margin-top: -3px;" class="inline-block h-4 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/>
+</svg> Värd</h4>
+                                <span class="text-grey group-hover:text-black">LiTHe Blås</span>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="group bg-white rounded-md grid grid-cols-1 sm:grid-cols-8 transition duration-300 ease-in-out">
+                        <h1 class="sm:col-span-3 justify-self-start pl-4 pt-4 sm:pt-0 sm:pl-8 self-center font-headline text-3xl text-grey group-hover:text-pink"><a class="font-normal" href="event/luciafesten-2019.html">Luciafesten 2019</a></h1>
+
+                        <div class="sm:col-span-5 p-4 sm:p-0 sm:py-6 grid grid-cols-2">
+                            <div>
+                                <h4 class="text-grey font-semibold group-hover:text-black"><svg style="margin-top: -2px;" class="inline-block h-4 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+</svg> Datum</h4>
+                                <span class="text-grey group-hover:text-black">14/12 - 2019</span>
+                            </div>
+
+                            <div>
+                                <h4 class="text-grey font-semibold group-hover:text-black"><svg style="margin-top: -3px;" class="inline-block h-4 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/>
+</svg> Värd</h4>
+                                <span class="text-grey group-hover:text-black">LiTHe Blås</span>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="group bg-white rounded-md grid grid-cols-1 sm:grid-cols-8 transition duration-300 ease-in-out">
+                        <h1 class="sm:col-span-3 justify-self-start pl-4 pt-4 sm:pt-0 sm:pl-8 self-center font-headline text-3xl text-grey group-hover:text-pink"><a class="font-normal" href="event/luciafesten-2018.html">Luciafesten 2018</a></h1>
+
+                        <div class="sm:col-span-5 p-4 sm:p-0 sm:py-6 grid grid-cols-2">
+                            <div>
+                                <h4 class="text-grey font-semibold group-hover:text-black"><svg style="margin-top: -2px;" class="inline-block h-4 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+</svg> Datum</h4>
+                                <span class="text-grey group-hover:text-black">15/12 - 2018</span>
+                            </div>
+
+                            <div>
+                                <h4 class="text-grey font-semibold group-hover:text-black"><svg style="margin-top: -3px;" class="inline-block h-4 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/>
+</svg> Värd</h4>
+                                <span class="text-grey group-hover:text-black">LiTHe Blås</span>
+                            </div>
+                        </div>
+                    </div>
+                                                                <div class="group bg-white rounded-md grid grid-cols-1 sm:grid-cols-8 transition duration-300 ease-in-out">
+                        <h1 class="sm:col-span-3 justify-self-start pl-4 pt-4 sm:pt-0 sm:pl-8 self-center font-headline text-3xl text-grey group-hover:text-pink"><a class="font-normal" href="event/luciafesten-2017.html">Luciafesten 2017</a></h1>
+
+                        <div class="sm:col-span-5 p-4 sm:p-0 sm:py-6 grid grid-cols-2">
+                            <div>
+                                <h4 class="text-grey font-semibold group-hover:text-black"><svg style="margin-top: -2px;" class="inline-block h-4 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+</svg> Datum</h4>
+                                <span class="text-grey group-hover:text-black">09/12 - 2017</span>
+                            </div>
+
+                            <div>
+                                <h4 class="text-grey font-semibold group-hover:text-black"><svg style="margin-top: -3px;" class="inline-block h-4 relative" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+  <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"/>
+</svg> Värd</h4>
+                                <span class="text-grey group-hover:text-black">LiTHe Blås</span>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+    </div>
+
+    <div class="container mx-auto grid sm:grid-cols-2 py-16 sm:space-x-4" id="app-info">
+        <div class="px-4 md:px-0 md:pl-4 lg:pl-0 mt-3">
+            <svg class="text-pink h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+</svg>            <h3 class="font-headline text-4xl pt-2">Anpassat för ert evenemang</h3>
+            <p>När ni säljer biljetter med Billio får ni en egen sida för ert evenemang, med möjligheten att sälja olika biljettyper, biljettillägg, variationer (så som kostalternativ), och mycket mer.</p>
+
+            <p>Med Billio får ni även möjligheten att skapa upp förköpslänkar som gör det möjligt att bjuda in personer att köpa biljetter före alla andra. Eller vill ni sälja förköp fysiskt och sedan importera in det i systemet? Det går också!</p>
+
+            <p>Tillsammans med det här och flera andra funktioner gör det Billio till det moderna biljettsystemet.</p>
+
+            <p class="bg-gray-100 rounded-md p-4 mt-4">
+                <strong>Anordnar ni ert evenemang vid Linköpings Universitet?</strong><br> Nu har Billio stöd för Kårrabatter! <a href="cdn-cgi/l/email-protection.html#caa2a38aa8a3a6a6a3a5e4abbaba">Kontakta oss</a> för att höra mer om hur vi kan få Billio att fungera för er.
+            </p>
+        </div>
+
+        <img src="img/eventpage.jpg" class="w-full md:pr-4 lg:pr-0">
+    </div>
+
+    <div class="bg-gray-100 py-16">
+        <div class="container mx-auto md:grid md:grid-cols-3 space-y-4 md:space-y-0 md:space-x-8 px-4 lg:px-0">
+            <div>
+                <svg class="text-orange h-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+</svg>                <h3 class="font-headline font-medium text-2xl pt-2">Låga avgifter</h3>
+                <p>Med Billio betalar ni endast en låg avgift för varje biljett som säljs och inget mer. Inga dolda kostnader! Och om era biljetter är gratis kostar inte Billio något att använda. Smidigt, eller hur?</p>
+            </div>
+
+            <div>
+                <svg class="h-12 text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"/>
+</svg>                <h3 class="font-headline font-medium text-2xl pt-2">Flexibelt</h3>
+                <p>Vill ni sälja mer än bara biljetter? Med Billio kan ni sälja merchandise och andra tillägg för biljetten. Genom det kommer ni att ha pengarna på ert konto före evenemanget och reducera er kontanthantering.</p>
+            </div>
+
+            <div>
+                <svg class="h-12 text-pink" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+</svg>                <h3 class="font-headline font-medium text-2xl pt-2">Säkert</h3>
+                <p>All betalning hanteras av en säker tredjepart, och det garanterar att inga betaluppgifter någonsin sparas hos oss. Billio driftas även på en säker server som rutinmässigt kontrolleras efter säkerhetsluckor.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto grid sm:grid-cols-2 py-16 sm:space-x-4">
+        <img src="img/checkout.jpg" class="w-full md:pl-4 lg:pl-0">
+
+        <div class="px-4 md:px-0 md:pr-4 lg:pl-0 mt-3">
+            <svg class="h-12 text-pink" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+</svg>            <h3 class="font-headline text-4xl pt-2">Smidigt hela vägen</h3>
+            <p>Att köpa en biljett ska ta max några minuter. Med Billio är hela köpprocessen optimerad till att vara så snabb och smidig som möjligt för era gäster.</p>
+
+            <p>Sedan när era gäster är på plats scannar dom en QR-kod för att komma in. Borta är tiden då det var långa köer för att komma in.</p>
+
+            <p><a href="cdn-cgi/l/email-protection.html#482021082a212424212766293838" class="btn btn-pink">Kom igång med Billio</a></p>
+        </div>
+    </div>
+</main>
+<section class="bg-dark-grey text-white sm:text-center py-16">
+        <div class="container mx-auto sm:text-center px-4 space-y-6 sm:w-9/12 lg:w-3/5">
+            <div class="space-y-2">
+                <h1 class="font-headline text-4xl">Intresserad? Kontakta oss!</h1>
+                <p>Vi gärna visa hur Billio kan hjälpa er att göra era evenemang lättare att hantera.<br>Kontakta oss så återkommer vi med mer information.</p>
+
+                <p><a href="cdn-cgi/l/email-protection.html#771f1e37151e1b1b1e1859160707" class="btn btn-white">Kontakta oss</a></p>
+            </div>
+
+            <div>
+                <a href="privacy-policy.html" class="font-normal">Integritetspolicy</a> |
+                <a href="help.html" class="font-normal">Hjälp</a> |
+                <a href="https://wheresmar.co" target="_blank" rel="noopener noreferrer" class="font-normal">Made with ♥ in Linköping</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="js-cookie-consent fixed bottom-0 md:bottom-4 flex justify-center w-full">
+    <div class="cookie-bar bg-blue md:text-center text-white md:rounded-md px-4 md:px-8">
+        <p>Genom att använda Billio godkänner du alla kakor i enlighet med vår <a href="privacy-policy.html">Integritetspolicy</a>. <a class="js-cookie-consent-agree btn btn-white mt-2 md:mt-0 text-center md:ml-2 w-full md:w-auto">Jag godkänner</a></p>
+    </div>
+</div>
+
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'billio.app';
+
+            function consentWithCookies() {
+                setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/'
+                    + '';
+            }
+
+            if (cookieExists('laravel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+
+
+    <script src="livewire/livewire.js%3Fid=ece4c4ab4b746f6f1739" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'lmNTqa6d0RKmGSS54GNNrmoEK3VnKQskTlEV0rIk';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+    </body>
+</html>
