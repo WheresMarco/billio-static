@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="gf869lZeG4kfcyvbWtFX0sTvMgBQZZTGCc0wYNRk">
+
+    <title>LiTHe Blås 50 år | Billio</title>
+    <meta name="description" content="Den 15:e april 2023 firar studentorkestern Linköpings Tekniska Högskolas Blåscorps, LiTHe Blås, 50 år och bjuder på en oförglömlig upplevelse i studentmusikens tecken.">
+
+    <link rel="shortcut icon" type="image/png" href="https://billio.app/img/favicon.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LiTHe Blås 50 år | Billio" />
+    <meta property="og:description" content="Den 15:e april 2023 firar studentorkestern Linköpings Tekniska Högskolas Blåscorps, LiTHe Blås, 50 år och bjuder på en oförglömlig upplevelse i studentmusikens tecken." />
+    <meta property="og:image" content="/storage/OjOBbFFXESnYUTiKmpJNP3RrNocPwRbbhvv7cezz.jpg" />
+
+    <!-- Scripts -->
+    <script src="/js/app.js?id=925cad0fbf80ed5c2442" defer></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129583569-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-129583569-1');
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="/css/app.css?id=e35f3efd5b0fe23a0d72" rel="stylesheet" data-turbolinks-track="true">
+
+    <style >[wire\:loading], [wire\:loading\.delay], [wire\:loading\.inline-block], [wire\:loading\.inline], [wire\:loading\.block], [wire\:loading\.flex], [wire\:loading\.table], [wire\:loading\.grid], [wire\:loading\.inline-flex] {display: none;}[wire\:loading\.delay\.shortest], [wire\:loading\.delay\.shorter], [wire\:loading\.delay\.short], [wire\:loading\.delay\.long], [wire\:loading\.delay\.longer], [wire\:loading\.delay\.longest] {display:none;}[wire\:offline] {display: none;}[wire\:dirty]:not(textarea):not(input):not(select) {display: none;}input:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill {animation-duration: 50000s;animation-name: livewireautofill;}@keyframes livewireautofill { from {} }</style>
+</head>
+
+<body class="box-border bg-dark-grey">
+    
+    
+    <header id="header">
+        <div class="container mx-auto flex justify-between px-4 pb-4 pt-4 align-middle text-white lg:px-0">
+            <div class="md:flex flex-row items-center">
+                <h1>
+                    <a href="/" class="block w-28">
+                        <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257 105">
+                            <path
+                                d="M67.486 82.4h22.336c14.61 0 20.647-7.124 20.647-16.42 0-9.78-6.762-15.093-12.436-15.455v-.604c5.312-1.449 10.021-4.95 10.021-12.919 0-9.055-6.037-16.42-18.956-16.42H67.486V82.4Zm7.486-6.64V54.267h15.213c8.09 0 13.16 5.433 13.16 11.712 0 5.433-3.743 9.78-13.523 9.78h-14.85Zm0-28.012V27.222h14.126c8.21 0 11.832 4.347 11.832 9.78 0 6.52-5.312 10.746-12.074 10.746H74.972ZM121.803 82.4h7.124V36.036h-7.124V82.4Zm3.622-54.09c2.777 0 5.071-2.174 5.071-4.83 0-2.657-2.294-4.83-5.071-4.83-2.777 0-5.071 2.173-5.071 4.83 0 2.656 2.294 4.83 5.071 4.83Zm23.673-7.728h-7.124V82.4h7.124V20.582Zm20.17 0h-7.123V82.4h7.123V20.582ZM182.316 82.4h7.123V36.036h-7.123V82.4Zm3.622-54.09c2.777 0 5.071-2.174 5.071-4.83 0-2.657-2.294-4.83-5.071-4.83-2.777 0-5.071 2.173-5.071 4.83 0 2.656 2.294 4.83 5.071 4.83Zm35.384 55.056c12.557 0 21.008-9.538 21.008-23.906 0-14.489-8.451-24.027-21.008-24.027-12.557 0-21.009 9.538-21.009 24.027 0 14.368 8.452 23.906 21.009 23.906Zm0-6.4c-9.538 0-13.885-8.21-13.885-17.506 0-9.297 4.347-17.628 13.885-17.628s13.885 8.33 13.885 17.628c0 9.297-4.347 17.507-13.885 17.507ZM55.274 20.44H45.109c-1.151 0-1.918.805-1.918 2.011 0 2.413-1.918 4.423-4.22 4.423-.959 0-1.726-.402-2.493-.804l-1.343-4.624c-.383-1.005-1.342-1.609-2.301-1.408l-9.974 2.815c-.959.402-1.534 1.408-1.342 2.413.575 2.212-.576 4.624-2.877 5.428-2.11.604-4.603-.603-5.179-3.015-.383-1.006-1.342-1.609-2.301-1.408l-9.782 3.016C.42 29.689-.155 30.694.037 31.7l15.919 55.893c.192.804.959 1.407 1.918 1.407h.575l9.782-3.016c.959-.402 1.534-1.407 1.342-2.412-.575-2.212.576-4.625 2.877-5.429 2.11-.603 4.603.603 5.179 3.016.383 1.005 1.342 1.608 2.301 1.407l3.26-1.005c0 .201.193.402.384.402.384.402.768.603 1.343.603h10.165c1.15 0 1.918-.804 1.918-2.01V22.25c0-1.005-.767-1.81-1.726-1.81ZM31.299 74.525c-3.644 1.206-5.945 4.624-5.753 8.444l-6.33 2.01L15.38 71.71l1.918-.603c.576-.2.768-.804.576-1.206-.192-.603-.767-.804-1.151-.603l-1.918.603L4.448 33.107l6.33-2.01c1.342 2.412 4.027 4.222 6.904 4.222.767 0 1.534-.201 2.302-.403 3.644-1.206 5.945-4.624 5.753-8.444l6.33-2.01 10.356 36.793c-.575.2-.767.804-.575 1.206.192.402.575.804.96.804h.19l3.837 13.27-2.493.804-3.836 1.206c-1.918-3.418-5.754-5.026-9.207-4.02Zm21.865 4.222h-2.302c.192-.402.384-1.005.192-1.608L37.821 30.694c.383 0 .767.201 1.15.201 3.644 0 6.905-2.613 7.672-6.433h6.713l-.192 54.284Z"
+                                fill="#FFF" />
+                            <path
+                                d="m24.67 66.066-3.966 1.1c-.626.184-.834.734-.626 1.1.209.367.626.734 1.044.734h.208l3.966-1.1c.626-.184.834-.734.626-1.1 0-.734-.626-.917-1.252-.734ZM30.67 64.048l-3.966 1.107c-.626.184-.834.738-.626 1.107.209.369.626.738 1.044.738h.208l3.966-1.107c.626-.184.834-.738.626-1.107-.209-.553-.835-.922-1.252-.738ZM38.863 62.066l-4.017 1.1c-.634 0-.846.55-.846 1.1.212.367.634.734 1.057.734h.212l4.017-1.1c.635-.184.846-.734.635-1.1 0-.734-.423-.917-1.058-.734Z"
+                                fill="#FFF" />
+                        </svg>
+                    </a>
+                </h1>
+
+                <nav class="md:ml-5">
+                    <ul class="flex gap-4 md:gap-6 mt-2 md:mt-1.5 -ml-2 md:-ml-0">
+                        <li><a class="hover:bg-slate-700 hover:transition-all inline-block hover:no-underline px-2 py-1 rounded-md" href="/about">Om Billio</a></li>
+                        <li><a class="hover:bg-slate-700 hover:transition-all inline-block hover:no-underline px-2 py-1 rounded-md" href="/help">Hjälp</a></li>
+                        <li><a class="hover:bg-slate-700 hover:transition-all inline-block hover:no-underline px-2 py-1 rounded-md" href="/contact">Kontakta oss</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="items-center mt-1.5 hidden"><a href="/my-account" class="btn btn-white">Mina Sidor</a></div>
+        </div>
+    </header>
+        <main x-data="{ activeTab: 'om-evenemanget' }" class="px-4 xl:px-0">
+        <div class="container mx-auto pb-8">
+            <div class="grid grid-cols-1 gap-y-4 md:grid-cols-3 md:gap-4">
+                <div class="col-span-2">
+                    <img src=/storage/sOHI59g1TCac8YUaa6MKDWAV0oPW9iC23Uh3K4hW.jpg alt="" class="rounded-md">
+
+                    <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 text-white md:hidden">
+                        <h1 class="relative font-headline text-2xl text-white">LiTHe Blås 50 år</h1>
+                    </div>
+
+                    <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 text-white md:hidden">
+                        <h4 class="-mb-2 font-headline font-semibold">Datum</h4>
+                        <p>15/04 - 2023 -
+                            16/04 - 2023</p>
+
+                        <h4 class="-mb-2 pt-2 font-headline font-semibold">Plats</h4>
+                        <p>Kårhuset Kollektivet (gamla Nationernas hus), Konsert &amp; Kongress, Linköping</p>
+
+                        <h4 class="-mb-2 pt-2 font-headline font-semibold">Arrangör</h4>
+                        <p><a href="https://www.facebook.com/events/2228386860697032/" target="_blank">LiTHe Blås</a> (<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="305a4552555c1e5c52050070575d51595c1e535f5d">[email&#160;protected]</a>)</p>
+                    </div>
+
+                                            <div class="mt-4">
+                                                            <a @click="activeTab = 'om-evenemanget'"
+                                    class="btn mr-2 mb-2 bg-light-grey md:mb-0"
+                                    :class="{ 'btn-pink': activeTab === 'om-evenemanget' }">Om Evenemanget</a>
+                                                            <a @click="activeTab = 'biljetter'"
+                                    class="btn mr-2 mb-2 bg-light-grey md:mb-0"
+                                    :class="{ 'btn-pink': activeTab === 'biljetter' }">Biljetter</a>
+                                                            <a @click="activeTab = 'donera'"
+                                    class="btn mr-2 mb-2 bg-light-grey md:mb-0"
+                                    :class="{ 'btn-pink': activeTab === 'donera' }">Donera</a>
+                                                            <a @click="activeTab = 'kontaktuppgifter'"
+                                    class="btn mr-2 mb-2 bg-light-grey md:mb-0"
+                                    :class="{ 'btn-pink': activeTab === 'kontaktuppgifter' }">Kontaktuppgifter</a>
+                                                            <a @click="activeTab = 'fragor-svar'"
+                                    class="btn mr-2 mb-2 bg-light-grey md:mb-0"
+                                    :class="{ 'btn-pink': activeTab === 'fragor-svar' }">Frågor &amp; Svar</a>
+                                                    </div>
+                    
+                    <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 text-white">
+                                                                                    <div :class="{ 'active': activeTab === 'om-evenemanget' }"
+                                    x-show="activeTab === 'om-evenemanget'">
+                                    <p>För snart ett halvt sekel sedan, inför den första StudentOrkesterFestivalen i Linköping, grundades LiTHe Blås, en liten balkester med ett fåtal musikanter och ballerinor. Sedan dess har balkestern vuxit till ett 50-tal aktiva medlemmar och gjort sig ett namn i Linköping såväl som i Sveriges studentorkestervärld. <strong>I april fyller LiTHe Blås 50 år och detta kommer vi att fira den 15 april med två storslagna konserter och en bankett som sent kommer att glömmas.</strong></p>
+<p><strong>Jubileumsdagen, lördagen 15/4:</strong>
+<br>-Två konserter kommer att äga rum i Forumteatern som ligger i Kårhuset kollektivet (gamla Nationernas Hus) med start 11:00 och 15:00.
+<br>-Klockan 18:30 slås dörrarna till Konsert &amp; Kongress upp för en hejdundrande bankett med mat, dryck och underhållning i världsklass.
+<br>-Efter banketten röjer vi loss på eftersläppet, där det kommer bjudas på musik, häng och andra överraskningar.</p>
+<p>För tillfället har vi endast biljetter kvar till konserten kl.11:00, vi hoppas att ni vill komma och uppleva 50 år av studentorkestermusik och andra upptåg tillsammans med oss.</p>
+
+                                </div>
+                                                            <div :class="{ 'active': activeTab === 'biljetter' }"
+                                    x-show="activeTab === 'biljetter'">
+                                    <p><strong>Biljetttyper:</strong>
+<br>Det finns två biljettyper tillgängliga, <em>Konsertbiljett</em> och en <em>Komplett-biljett</em> vilket inkluderar bankett- och konsertbiljett. Köpa biljett gör du längst ned på sidan.</p>
+<p><strong>Konsertbiljett:</strong>
+<br>I konsertbiljetten ingår inträde till en av konserterna. Vilken konserttillfälle väljs vid köp. Konserterna är i Forumteatern som ligger i Kårhuset kollektivet (gamla Nationernas Hus).</p>
+<p>**Komplett biljett: (ej tillgänglig) **
+<br>I den kompletta biljetten ingår allt som vi arrangerar under dagen. Detta inkluderar inträde till en av konserterna, bankett samt eftersläppsbiljett. Konserterna är på Forumteatern som ligger i Kårhuset kollektivet (gamla Nationernas Hus) och banketten samt eftersläppet är på Garden (Konsert &amp; Kongress).
+<br>Till banketten ingår fördrink, 3-rätters middagsmeny, 2 dryck till maten (alkohol eller alkoholfritt) samt kaffe/te till desserten. Märke och medalj ingår i biljetten.
+<br>|| Banketten börjar med en fördrink klockan 18:30 ||</p>
+<p><strong>Donera:</strong>
+<br>Välj om du vill donera genom att skänka en valfri summa. Mer information finns på sidan <em>&quot;Donera&quot;</em>.</p>
+
+                                </div>
+                                                            <div :class="{ 'active': activeTab === 'donera' }"
+                                    x-show="activeTab === 'donera'">
+                                    <p>För att jubileet ska kunna bli så bra som bara möjligt för alla, till ett rimligt pris, kommer vi att behöva ekonomiskt stöd. Detta görs genom en gemensam donationstrappa där alla donationer tillsammans når upp till olika mål.</p>
+<p><strong>Donationstrappa</strong>
+<br>Donationstrappan fungerar så att vid en donation stiger stapeln med samma belopp som donationen. Vid vissa milstolpar kommer vissa saker hända (event eller andra kul grejer) och ju mer pengar som kommer in, desto mer kul kommer att ske under jubbe-dagen! Och vi vet ju alla att det är kul med kul!</p>
+<p>Bidra till donationstrappan kan man göra på två sätt:
+<br>-Helt enkelt skänka en valfri summa. (Längst ned på denna sida)
+<br>-Köpa ett personligt VIP-paket vid köp av din bankettbiljett (info om paketen finns i nästa stycke).</p>
+<p><strong>VIP-paket</strong>
+<br>Det andra sättet att bidra till donationstrappan är att köpa VIP-paket. Dessa paket köps i samband med bankettbiljetten och kommer göra din upplevelse av jubbet extra minnesvärd. Det finns olika nivåer av paket att välja mellan och med det kommer också olika stor donationssumma (priset för donationen är alltså utanför biljettpriset och man kommer bara kunna köpa ett paket till varje bankettbiljett).</p>
+<p>De olika VIP-paketen:</p>
+<p><strong>Gråsmesen (100kr):</strong>
+<br>- Bemmärkelse i sånghäftet
+<br>- Jubileumsballong
+<br>- Custom bordsplaceringsskylt</p>
+<p><strong>Tuttourduvan (250kr):</strong>
+<br>Allt under Gråsmesen samt:
+<br>- Guldhatt
+<br>- Exklusiv goodiebag</p>
+<p><strong>STORKen (500kr):</strong>
+<br>Allt under Tuttourduvan samt:
+<br>- Roliga glasögon
+<br>- Front row på konserten
+<br>- VIP-medalj
+<br>- Bankettöverraskning</p>
+<p><strong>Rövsångaren (1500kr):</strong>
+<br>Allt under STORKen samt:
+<br>- Namnge drink från barens drinklista
+<br>- DeluxXx jubbeblinkmoj
+<br>- LiTHe Blås-Oscarstattyet
+<br>- Önska sång till sånghäftet
+<br>- Designa klippkort</p>
+<p><strong>Gam-lingen (5000kr):</strong>
+<br>Allt under Rövsångaren samt:
+<br>- Guldtron på banketten
+<br>- Custom vapensköld
+<br>- Blottartuban-actionfigur
+<br>- Taxi till hotellet (inom Linköping)
+<br>- En tavla av dig sätts upp i blåsrummet/sollos
+<br>- Sittningsbiljett till Luciafesten 2023</p>
+
+                                </div>
+                                                            <div :class="{ 'active': activeTab === 'kontaktuppgifter' }"
+                                    x-show="activeTab === 'kontaktuppgifter'">
+                                    <p><img src="https://billio.app/storage/gruppbild-hemsidan-1675240279qdhC4.jpg" alt="Gruppbild på Jubelgeneralerna" /></p>
+<p>Ända sedan LiTHe Blås 45-årsjubileum har världen, eller åtminstone alla blåsare, sett fram emot nästa stora händelse: LiTHe Blås 50-årsjubileum. Den 20:e januari 2022 tillsattes jubelgeneralerna, och sedan dess har de tillsammans med de aktiva blåsarna arbetat hårt för att jubileet ska bli seklets höjdpunkt.</p>
+<p>Om ni vill nå oss generaler kan ni kontakta oss på <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c3a9b6a1a6afedafa1f6f383a4aea2aaafeda0acae">[email&#160;protected]</a>. Vi vill att ni i första hand kontaktar oss via denna mailadress, men om ni snabbt behöver nå någon av oss kan ni nå oss på nedanstående kontaktuppgifter. Ni kan även kolla om det finns ett svar på er fråga i fliken Frågor &amp; Svar.</p>
+<p>Jubelgeneralerna är:									<br />
+<strong>Elin “Plutten” Kidell Löwstedt</strong>: 0707396903
+<br> Plutten har dansat i baletten sedan 2018, på fritiden har hon även pluggat till civilingenjör i Teknisk fysik och elektronik.</p>
+<p><strong>Linus “Fia” Edvardsson</strong>: 0702243737
+<br>Fia blev antagen på trumpet 2021 och har sedan dess tutat mycket samtidigt som han pluggar till civilingenjör i Maskinteknik.</p>
+<p><strong>Hugo “00-Niklas” Asplund</strong>: 0727056099
+<br>00-Niklas pluggar till civilingenjör i Teknisk fysik och elektronik och han har slagit på saker i kompet sedan 2019. Han är ekonomiskt ansvarig.</p>
+<p><strong>Alma “Almacka” Tageman</strong>: 0703038705
+<br>Almacka spelar klarinett och har gjort det sedan 2021, förutom det pluggar hon till civilingenjör i Energi, miljö och management.</p>
+
+                                </div>
+                                                            <div :class="{ 'active': activeTab === 'fragor-svar' }"
+                                    x-show="activeTab === 'fragor-svar'">
+                                    <p><strong>Jag har problem med mitt biljettköp, vad gör jag då?</strong></p>
+<ul>
+<li>Tryck på <em>Hjälp</em> högst upp på sidan och läs vidare.</li>
+</ul>
+<p><strong>När får jag köpa biljett?</strong></p>
+<ul>
+<li>Biljettsläpp för både kompletta- och konsertbiljetter sker på följande datum:</li>
+</ul>
+<ul>
+<li>1/2: Gamlingar och deras respektive.</li>
+<li>14/2: Andra studentorkestrar samt vänföreningar.</li>
+<li>1/3: Övriga.</li>
+</ul>
+<p>Biljettsläpp sker via delning av en hemlig länk, dela därför inte vidare den till personer som ännu inte fått tillgång än.</p>
+<p><strong>Jag vill ta med mig mina barn på banketten, hur gör jag då?</strong></p>
+<ul>
+<li>Barn under 18 år får inte följa med på Banketten.</li>
+</ul>
+<p><strong>Får jag sitta med de jag var aktiva med?</strong></p>
+<ul>
+<li>Det går bra att önska enstaka personer du helst vill sitta med när du köper biljett, men vi kan tyvärr inte garantera att du får sitta med alla du önskat. Vi ska dock göra vårat bästa med att alla ska bli så nöjda som möjligt.</li>
+</ul>
+<p><strong>Kan jag få återbetalning på min biljett om jag får förhinder?</strong></p>
+<ul>
+<li>Vi kan tyvärr inte återbetala några biljetter efter köp.</li>
+</ul>
+<p><strong>Hur många biljetter får jag köpa?</strong></p>
+<ul>
+<li>Du får köpa två kompletta biljetter per person samt obegränsat antal konsertbiljetter.</li>
+</ul>
+<p><strong>Vilken klädkod gäller?</strong></p>
+<ul>
+<li>Blåsfint eller mörk kostym.</li>
+</ul>
+<p><strong>När kan jag köpa merch?</strong></p>
+<ul>
+<li>Merch kommer gå att köpa i samband med konserterna samt vid förminglet till banketten. Det kommer finnas bland annat tröjor, pins, ölglas, snapsglas samt extra märken.</li>
+</ul>
+<p><strong>Kan jag köpa en specifik plats på konserten eller banketten?</strong></p>
+<ul>
+<li>Nej. På banketten kommer du bli tilldelad en bordsplacering. På konserten är det först till kvarn på platser.</li>
+</ul>
+
+                                </div>
+                                                                        </div>
+
+                    <!-- List out donation goals -->
+                                            <div x-show="activeTab === 'donera' || activeTab === 'deltagarbetalning'">
+                                                            <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 pb-0 text-white md:hidden">
+                                    <h4 class="mb-2 font-headline font-semibold">Donationer</h4>
+
+                                    <div class="flex justify-between">
+                                        <p class="font-medium">0 kr</p>
+                                        <p class="font-medium">100 000 kr</p>
+                                    </div>
+
+                                    <div class="h-2.5 w-full rounded-full bg-white">
+                                        <div class="h-2.5 rounded-full bg-pink"
+                                            style="width: 87%"></div>
+                                    </div>
+                                    <p class="text-center text-gray-200">87% av nivå
+                                        20 uppnådd.</p>
+                                    </p>
+                                </div>
+                            
+                            <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 text-white">
+                                <div x-show="activeTab != 'deltagarbetalning'">
+                                    <h2 class="relative font-headline text-2xl text-white">Donationsnivåer</h2>
+                                    <p class="mb-2">Totalt insamlat: 86 900 kr</p>
+
+                                    <ul>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">2 500
+                                                    kr</span><br>Vi fixar mer merch
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">5 000
+                                                    kr</span><br>Band på eftersläppet
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">7 500
+                                                    kr</span><br>Egen öl
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">10 000
+                                                    kr</span><br>Temabar
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">12 500
+                                                    kr</span><br>Relikmuseum
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">15 000
+                                                    kr</span><br>Sittningen bestämmer ett blåsnamn
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">17 500
+                                                    kr</span><br>Chokladfontän
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">20 000
+                                                    kr</span><br>Punch i pausen på konserterna
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">25 000
+                                                    kr</span><br>Diktatorn erkänner att det var bättre förr
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">30 000
+                                                    kr</span><br>Det blir en liveskiva från jubbet
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">35 000
+                                                    kr</span><br>Kompet gycklar någon gång under helgen
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">40 000
+                                                    kr</span><br>FET rökmaskin på scen
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">50 000
+                                                    kr</span><br>Skivan blir på LP
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">57 500
+                                                    kr</span><br>Kompet gycklar inte
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">60 000
+                                                    kr</span><br>Kompet gycklar
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">62 500
+                                                    kr</span><br>Kompet gycklar inte
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">65 000
+                                                    kr</span><br>Kompet gycklar
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">67 500
+                                                    kr</span><br>Kompet gycklar inte
+                                            </li>
+                                                                                    <li
+                                                class=" bg-green-600  mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">75 000
+                                                    kr</span><br>Monument &quot;LB50&quot; i märkesbacken
+                                            </li>
+                                                                                    <li
+                                                class=" mb-2 rounded-md border border-gray-600 p-4">
+                                                <span class="text-xl">100 000
+                                                    kr</span><br>Baletten springer nakna på Corson 
+                                            </li>
+                                                                            </ul>
+                                </div>
+
+                                <h3 class="relative mt-4 -mb-2 font-headline text-xl text-white">Donera valfritt belopp</h3>
+                                <form action="/event/lithe-blas-50/donate" method="post">
+                                    <input type="hidden" name="_token" value="gf869lZeG4kfcyvbWtFX0sTvMgBQZZTGCc0wYNRk">                                    <input type="hidden" name="event_id" value="6">
+                                    <input type="number" name="amount" value="100" min="10" max="10000"
+                                        class="mr-1 w-1/4 rounded-md border-gray-300 bg-transparent shadow-sm focus:border-blue focus:ring focus:ring-blue focus:ring-opacity-50 sm:w-1/5">
+                                    <button type="submit" class="btn btn-pink mt-4">Donera</button>
+                                </form>
+
+                                <p class="mt-2 text-grey">Vid belopp över 10 000 kr hänvisar vi att kontakta arrangören för
+                                    att
+                                    hantera
+                                    donationen.</p>
+                            </div>
+                        </div>
+                    
+                    <div x-show="activeTab != 'donera' && activeTab != 'deltagarbetalning'">
+                                                    <h1 class="relative mt-4 -mb-2 font-headline text-2xl text-white" id="tickets">Biljetter</h1>
+                        
+                                                    <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 text-white">
+                                <form action="/event/lithe-blas-50/concert" method="post">
+    <div>
+        <input type="hidden" name="_token" value="gf869lZeG4kfcyvbWtFX0sTvMgBQZZTGCc0wYNRk">        <input type="hidden" name="ticket_type_id" value="10">
+
+        <div class="ticketTypeIcon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 5v2m0 4v2m0 4v2M5 5a2 2 0 00-2 2v3a2 2 0 110 4v3a2 2 0 002 2h14a2 2 0 002-2v-3a2 2 0 110-4V7a2 2 0 00-2-2H5z"/>
+</svg></div>
+
+        <h3 class="mt-2 -mb-1 font-headline text-2xl font-medium">Konsert</h3>
+        <h4 class="text-base font-medium">160 kr</h4>
+
+        <p>I konsertbiljetten ingår inträde till en av konserterna. Konserterna kommer utspela sig i Forumteatern, i gamla Nationernas Hus.
+<br>
+Barn/Studentpris: 120 kr.</p>
+<p><em>Konsert 1: 11:00 - 13:00</em><br>
+<em>Konsert 2: 15:00 - 17:00 (Slutsåld)</em></p>
+
+    </div>
+
+    <div>
+                                    <div class="btn btn-white btn-disabled mt-1">Inte tillgänglig just nu</div>
+                        </div>
+</form>
+                            </div>
+                                                    <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 text-white">
+                                <form action="/event/lithe-blas-50/concert-dinner" method="post">
+    <div>
+        <input type="hidden" name="_token" value="gf869lZeG4kfcyvbWtFX0sTvMgBQZZTGCc0wYNRk">        <input type="hidden" name="ticket_type_id" value="9">
+
+        <div class="ticketTypeIcon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+</svg></div>
+
+        <h3 class="mt-2 -mb-1 font-headline text-2xl font-medium">Komplett (Bankett + Konsert)</h3>
+        <h4 class="text-base font-medium">1 060 kr</h4>
+
+        <p>I den kompletta biljetten ingår allt som vi arrangerar under dagen. Detta inkluderar inträde till en av konserterna, bankett samt eftersläppsbiljett. Konserterna är på Forumteatern (i gamla Nationernas Hus) och banketten samt eftersläppet är på Garden (Konsert &amp; Kongress).</p>
+<p>Till banketten ingår fördrink, 3-rätters middagsmeny, 2 dryck till maten (alkohol eller alkoholfritt) samt kaffe/te till desserten. Märke och medalj ingår i biljetten.</p>
+<p><em>Fördrink 18:30</em></p>
+<p>!!! OBS! Barn under 18 år får inte följa med på banketten. Legitimationskontroll kommer att ske OBS! !!!</p>
+
+    </div>
+
+    <div>
+                                    <div class="btn btn-white btn-disabled mt-1">Slutsåld</div>
+                        </div>
+</form>
+                            </div>
+                                            </div>
+                </div>
+
+                <div class="hidden md:block">
+                    <div class="rounded-md border border-gray-600 bg-light-grey p-4 text-white">
+                        <h1 class="relative font-headline text-2xl text-white">LiTHe Blås 50 år</h1>
+                    </div>
+
+                    <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 text-white">
+                        <h4 class="-mb-2 font-headline font-semibold">Datum</h4>
+                        <p>15/04 - 2023 -
+                            16/04 - 2023</p>
+
+                        <h4 class="-mb-2 pt-2 font-headline font-semibold">Plats</h4>
+                        <p>Kårhuset Kollektivet (gamla Nationernas hus), Konsert &amp; Kongress, Linköping</p>
+
+                        <h4 class="-mb-2 pt-2 font-headline font-semibold">Arrangör</h4>
+                        <p><a href="https://www.facebook.com/events/2228386860697032/" target="_blank">LiTHe Blås</a> (<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="53392631363f7d3f31666313343e323a3f7d303c3e">[email&#160;protected]</a>)</p>
+                    </div>
+
+                                            <div class="mt-4 rounded-md border border-gray-600 bg-light-grey p-4 text-white">
+                            <h4 class="mb-2 font-headline font-semibold">Donationer</h4>
+
+                            <div class="flex justify-between">
+                                <p class="font-medium">0 kr</p>
+                                <p class="font-medium">100 000 kr</p>
+                            </div>
+
+                            <div class="h-2.5 w-full rounded-full bg-white">
+                                <div class="h-2.5 rounded-full bg-pink"
+                                    style="width: 87%"></div>
+                            </div>
+                            <p class="text-center text-gray-200">87% av nivå
+                                20 uppnådd.</p>
+                            <p>Detta evenemang har olika donationsnivåer. Läs mer om dessa under fliken "Donera".</p>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </main>
+<section class="bg-dark-grey text-grey" id="footer">
+        <div class="container mx-auto justify-between border-t border-gray-600 py-4 px-4 md:flex xl:px-0">
+            <div class="flex space-x-8">
+                <a href="/privacy-policy">Integritetspolicy</a>
+                <a href="/help">Hjälp</a>
+                <a href="/contact">Kontakta oss</a>
+            </div>
+            <a href="https://wheresmar.co" target="_blank" rel="noopener noreferrer" class="font-normal">Made with <span
+                    class="text-pink">♥</span>
+                in Linköping</a>
+        </div>
+    </section>
+
+    <div class="js-cookie-consent fixed bottom-0 flex w-full justify-center md:bottom-4">
+    <div class="cookie-bar bg-blue px-4 text-white md:rounded-md md:px-8 md:text-center">
+        <p>Genom att använda Billio godkänner du alla kakor i enlighet med vår <a href="/privacy-policy">Integritetspolicy</a>. <a class="js-cookie-consent-agree btn btn-white mt-2 w-full text-center md:mt-0 md:ml-2 md:w-auto">Jag godkänner</a></p>
+    </div>
+</div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'billio.app';
+
+            function consentWithCookies() {
+                setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/'
+                    + '';
+            }
+
+            if (cookieExists('laravel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+
+
+    <script src="/livewire/livewire.js?id=de3fca26689cb5a39af4" data-turbo-eval="false" data-turbolinks-eval="false" ></script><script data-turbo-eval="false" data-turbolinks-eval="false" >window.livewire = new Livewire();window.Livewire = window.livewire;window.livewire_app_url = '';window.livewire_token = 'gf869lZeG4kfcyvbWtFX0sTvMgBQZZTGCc0wYNRk';window.deferLoadingAlpine = function (callback) {window.addEventListener('livewire:load', function () {callback();});};let started = false;window.addEventListener('alpine:initializing', function () {if (! started) {window.livewire.start();started = true;}});document.addEventListener("DOMContentLoaded", function () {if (! started) {window.livewire.start();started = true;}});</script>
+        </body>
+
+    </html>
